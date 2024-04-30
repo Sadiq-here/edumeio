@@ -37,7 +37,13 @@ export const NavbarRoutes = () => {
               Teacher mode
             </Button>
           </Link>
-        ) : null}
+        ) : (
+          <Link href='https://forms.gle/DtTGhh3HBGemJW6WA'>
+            <Button size='sm' variant='ghost'>
+              Become a Teacher
+            </Button>
+          </Link>
+        )}
         <UserButton afterSignOutUrl='/' />
       </div>
     </>
